@@ -1,5 +1,5 @@
 {
-    "name": "ksn135/htpasswd-bundle",
+    "name": "adem-enuygun/HtpasswdBundle",
     "description": "Bundle for Symfony2 for basic authentication of HTTP users listed in the files created by htpasswd utility",
     "keywords": ["ksn135", "htpasswd", "bundle"],
     "homepage": "http://github.com/ksn135/HtpasswdBundle",
