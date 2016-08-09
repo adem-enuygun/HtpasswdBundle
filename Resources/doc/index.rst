@@ -1,16 +1,16 @@
-Bundle for Symfony2 for basic authentication of HTTP users listed in the file created by htpasswd utility
+Bundle for Symfony3 for basic authentication of HTTP users listed in the file created by htpasswd utility
 
 Installation
 ============
 
-Add ksn135/htpasswd-bundle to composer.json
+Add adem-enuygun/HtpasswdBundle to composer.json
 -------------------------------------------
 
 ::
 
     "require": {
 
-        "ksn135/htpasswd-bundle": "dev-master"
+        "adem-enuygun/HtpasswdBundle": "dev-master"
 
     }
 
@@ -22,13 +22,13 @@ Add Ksn135HtpasswdBundle to your application kernel
     // app/AppKernel.php
     public function registerBundles()
     {
-        return array(
+        $bundles = [
             // ...
 
             new Ksn135\HtpasswdBundle\Ksn135HtpasswdBundle(),
             
             // ...
-        );
+        ];
     }
 
 Update your security.yml configuration
